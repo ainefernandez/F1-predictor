@@ -1,0 +1,11 @@
+name: f1predictor-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - fastf1
+  - pandas
+  - matplotlib
+  - numpy
+  - scikit-learn
