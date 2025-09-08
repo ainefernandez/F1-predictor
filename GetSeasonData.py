@@ -262,5 +262,5 @@ def get_season_data_with_features(season, round_limit):
 
 
 
-season_data_with_features = get_season_data_with_features(2025, 12)
+season_data_with_features = get_season_data_with_features(2025, 16)
 season_data_with_features.to_csv("2025SeasonData.csv", index=False)
